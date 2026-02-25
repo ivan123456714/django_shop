@@ -1,0 +1,66 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.bg-body {
+  background: radial-gradient(circle at top left, #0d6efd11, transparent 55%),
+    radial-gradient(circle at bottom right, #19875411, transparent 55%),
+    #f8f9fa;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.hero-section .hero-search .form-control {
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+}
+
+.hero-section .hero-search .btn {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+}
+
+.hero-badge {
+  min-width: 220px;
+}
+
+.promo-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.promo-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 999px;
+}
+
+.card.category-card:hover,
+.card.category-card:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+.card.category-card {
+  transition: 0.2s ease;
+}
+
+.card.product-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.85rem 1.8rem rgba(0, 0, 0, 0.08);
+}
+
+.auth-card {
+  margin-top: 3rem;
+}
+
