@@ -1,17 +1,37 @@
-# Django
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media/
-staticfiles/
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 venv/
 .env
+db.sqlite3
 
-# IDE
+# Django
+local_settings.py
+staticfiles/
+media/
+
+# JavaScript / React / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# IDEs (Cursor, VS Code, PyCharm)
 .vscode/
+.idea/
+.cursor/
+*.swp
+*.bak
+
+# Системні файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи та тимчасові файли
+*.log
+logs/
+tmp/
